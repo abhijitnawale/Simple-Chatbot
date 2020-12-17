@@ -1,0 +1,72 @@
+
+body {
+    
+    font-family: arial;
+    background-image: url('../images/tony1.jpg.jpg');
+    background-image: cover;
+}
+h2{
+    color:crimson;
+}
+h4{
+    color:steelblue
+}
+
+.box {
+  width: 40%;
+  margin: 20px auto;
+  margin-left: 5%;
+  margin-bottom: 10%;
+  border-radius: 15px;
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+  font-family: arial;
+  position: relative;
+  z-index: -1;
+}
+
+.sb1{
+    margin-left: 45%;
+    background: #4286f4;
+}
+
+
+
+.sb2{
+     background: #eee;
+     color: #000;
+     margin-right: 50%;
+}
+
+
+/*this is for write something nd send button*/
+.input-container {
+    position: fixed;
+    height: 8%;
+    display: -ms-flexbox; 
+    display: flex;
+    width: 100%;
+    bottom: 1%;
+}
+
+.input-field {
+    width: 70%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #eee;
+    border-radius: 50px;
+}
+
+.input-field:focus {
+    border: 3px solid #4286f4;
+}
+
+.send-btn{
+    margin-left: 2%;
+    width: 15%;
+    background: #4286f4;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+}
